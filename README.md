@@ -6,7 +6,7 @@
 
 json-server를 이용하여 정보가 유지되도록 했다.
 
-##### 사용 라이브러리
+### 사용 라이브러리
 
 react-query
 axios
@@ -14,7 +14,7 @@ json-server
 styled-component
 uuid
 
-##### 컴포넌트
+### 컴포넌트
 
 기능이 분리되는 구간, 컴포넌트로 분리되어도 props로 내려주는 것이 변경되지 않는 기준으로 분리를해보았다.
 
