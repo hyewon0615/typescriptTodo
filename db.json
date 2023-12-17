@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": "1e147b21-3c93-a961-0ce3-3a7efded3ca4",
+      "title": "방 치우기",
+      "content": "큰방, 침실 위주로!",
+      "isDone": false
+    },
+    {
+      "id": "91849c8e-f42b-f0a3-eb2d-a2a4a25885dc",
+      "title": "TIL 쓰기",
+      "content": "과제 해결 내용과 react query 내용 담기'",
+      "isDone": false
+    },
+    {
+      "id": "e3137e19-e4e6-c264-bded-8004554ad993",
+      "title": "알고리즘 정리하기",
+      "content": "깃헙 또는 블로그에",
+      "isDone": false
+    },
+    {
+      "id": "8dffaa83-8322-e5ae-d2e0-240e0b6d659c",
+      "title": "과제 스타일 입히기",
+      "content": "예시와 똑같이 하자!",
+      "isDone": true
+    },
+    {
+      "id": "61772af5-056e-cb5d-318f-ddae118d2e0b",
+      "title": "readme 추가하기",
+      "content": "제출 전까지!",
+      "isDone": false
+    }
+  ]
+}
