@@ -17,15 +17,15 @@ const TodoCard = styled.div`
     font-weight: 600;
   }
 `;
-const Button = styled('button')<{ borderColor: string }>`
-  border: 1px solid ${(props) => props.borderColor};
+const Button = styled('button')<{ $bordercolor: string }>`
+  border: 1px solid ${(props) => props.$bordercolor};
   background-color: white;
   margin: 5px;
   width: 45%;
   height: 35px;
   border-radius: 10px;
   &:hover {
-    background-color: ${(props) => props.borderColor};
+    background-color: ${(props) => props.$bordercolor};
     color: white;
   }
 `;
@@ -66,10 +66,10 @@ function Todo({ todo, isActive }: { todo: TodoItem; isActive: boolean }) {
         <h1>{todo.title}</h1>
         <p>{todo.content}</p>
         <div>
-          <Button borderColor={'red'} onClick={handleSwitchButton}>
+          <Button $bordercolor={'red'} onClick={handleSwitchButton}>
             {isActive ? '완료' : '취소'}
           </Button>
-          <Button borderColor={'#059369'} onClick={handleRemoveButton}>
+          <Button $bordercolor={'#059369'} onClick={handleRemoveButton}>
             삭제
           </Button>
         </div>
